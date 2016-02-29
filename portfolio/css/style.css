@@ -1,9 +1,36 @@
-h2 {
+h1, h2 {
 	color: white;
-}
+/*	background-color: #0086b3;
+*/}
 
 .white, .post-title {
 	color: white;
+}
+
+#simon-details, 
+#cellarbook-details, 
+#trackit-details, 
+#roadtrip-details {
+	display: none;
+}
+
+#simon-head, 
+#cellarbook-head, 
+#trackit-head, 
+#roadtrip-head { 
+	cursor: pointer; 
+}
+
+.project-pic {
+	margin-bottom: 20px;
+}
+
+.project-tech {
+	margin-top: 20px;
+}
+
+.project-head {
+	margin-top: 40px;
 }
 
 .skillsTile {
