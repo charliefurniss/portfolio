@@ -3,6 +3,15 @@ h1, h2 {
 /*	background-color: #0086b3;
 */}
 
+a {
+  color: #111;
+  text-decoration: none; }
+  a:visited {
+    color: #111; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
 .white, .post-title {
 	color: white;
 }
@@ -29,15 +38,22 @@ h1, h2 {
 	margin-top: 20px;
 }
 
-.project-head {
+.project-head, .skills-head {
 	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+.skills-main-head {
+	font-size: 42px;
+	letter-spacing: -1px;
+	line-height: 1;
 }
 
 .skillsTile {
 	display: inline-block;
 	height: 150px;
 	width: 150px;
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	text-align: center;
 }
 
@@ -45,7 +61,7 @@ h1, h2 {
 	display: inline-block;
 	height: 120px;
 	width: 120px;
-	background-color: black;
+	background-color: #111;
 	border-radius: 50%;
 	margin: 0 auto;
 }
@@ -55,5 +71,10 @@ h1, h2 {
 	width: 80px;
 	position: relative;
 	padding: 20px;
+}
+
+.skillsWords {
+	margin-top: 10px;
+	font-size: 20px !important;
 }
 

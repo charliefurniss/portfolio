@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Writing
-subtitle: What I like
+subtitle: What I write
 permalink: /writing/
 ---
 
