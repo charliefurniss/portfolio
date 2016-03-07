@@ -16,6 +16,10 @@ a {
 	color: white;
 }
 
+.index-links:hover {
+    color: white;
+    text-decoration: underline; 
+}
 #simon-details, 
 #cellarbook-details, 
 #trackit-details, 
@@ -23,11 +27,11 @@ a {
 	display: none;
 }
 
-#simon-head, 
-#cellarbook-head, 
-#trackit-head, 
-#roadtrip-head { 
-	cursor: pointer; 
+#simon-head:hover, 
+#cellarbook-head:hover, 
+#trackit-head:hover, 
+#roadtrip-head:hover { 
+	cursor: pointer;
 }
 
 .project-pic {
