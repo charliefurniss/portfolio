@@ -16,7 +16,4 @@ document.addEventListener("DOMContentLoaded", function() {
 	$("#roadtrip-head").click(function(){
 	    $("#roadtrip-details").slideToggle();
 	});
-
-	
-
 })

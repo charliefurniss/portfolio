@@ -1,6 +1,6 @@
 ---
 layout: page
-subtitle: Hello!
+subtitle: Hello world...
 ---
 
 I'm a <a class="index-links" href="/portfolio"><span class="white">web developer</span></a> based in London. My background is in journalism and content marketing, and before that musicology. But I also love <a class="index-links" href="/about"><span class="white">wine, travel and cooking (and eating)</span></a>, as well as playing guitar and violin.

@@ -1,0 +1,105 @@
+h1, h2 {
+	color: white;
+/*	background-color: #0086b3;
+*/}
+
+a {
+  color: #111;
+  text-decoration: none; }
+  a:visited {
+    color: #111; }
+  a:hover {
+    color: #111;
+    text-decoration: underline; }
+
+.white, .post-title {
+	color: white;
+}
+
+.index-links:hover {
+    color: white;
+    text-decoration: underline; 
+}
+#simon-details, 
+#cellarbook-details, 
+#trackit-details, 
+#roadtrip-details {
+	display: none;
+}
+
+#simon-head:hover, 
+#cellarbook-head:hover, 
+#trackit-head:hover, 
+#roadtrip-head:hover { 
+	cursor: pointer;
+	background-color: grey;
+}
+
+.project-pic {
+	margin-bottom: 20px;
+}
+
+.project-tech {
+	margin-top: 20px;
+}
+
+.project-head, .skills-head {
+	margin-top: 40px;
+	margin-bottom: 0px;
+}
+
+.skills-main-head {
+	font-size: 42px;
+	letter-spacing: -1px;
+	line-height: 1;
+}
+
+.skillsTile {
+	display: inline-block;
+	height: 150px;
+	width: 150px;
+	margin-bottom: 70px;
+	text-align: center;
+}
+
+.skillsIconContainer {
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	background-color: #111;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.skillsIcon {
+	height: 80px;
+	width: 80px;
+	position: relative;
+	padding: 20px;
+}
+
+#bootstrap {
+	color: white;
+	font-weight: 900;
+	font-size: 80px;
+}
+
+#express {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 2px; 
+	font-size: 24px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.skillsLetters {
+
+}
+
+.skillsWords {
+	margin-top: 10px;
+	font-size: 20px !important;
+}
+
